@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.technologies-page-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222544;
+    height: 100vh;
+}
+
+.technologies-page-container {
+    width: 85%;
+    max-width: 800px;
+}
+
+.technologies-page-heading {
+    color: #2d9cca;
+    font-family: "Roboto";
+}
+
+.technologies-page-description {
+    color: #f1f1f1;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.unodered-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+
+.technologies-list {
+    list-style-type: none;
+    color: #2d9cca;
+    font-family: "Roboto";
+    font-size: 12px;
+    border: 2px solid #95cae0;
+    border-radius: 32px;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+}
